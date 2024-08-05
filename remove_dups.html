@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utility Functions</title>
+    <link rel="stylesheet" href="remove_dups.css">
+</head>
+<body>
+    <div class="main-container">
+       <h1>UTILITY FUNCTIONS</h1> 
+       
+        
+        <div class="container">
+            <h2>Reverse String</h2>
+            <div class="input-field">
+                <input type="text" id="stringInput" placeholder="Enter a string">
+            </div>
+            <button class="btn btn-secondary" onclick="reverseString()">Reverse</button>
+            <div class="result" id="stringResult"></div>
+        </div>
+        <div class="container">
+            <h2>Remove Duplicates</h2>
+            <div class="input-field">
+                <input type="text" id="arrayInput" placeholder="Enter array elements separated by commas">
+            </div>
+            <button class="btn btn-primary" onclick="removeDuplicates()">Remove Duplicates</button>
+            <div class="result" id="arrayResult"></div>
+        </div>
+        <div class="container">
+            <h2>Prime Number Checker</h2>
+            <div class="input-field">
+                <input type="number" id="primeInput" placeholder="Enter a number">
+            </div>
+            <button class="btn btn-success" onclick="isPrime()">Check Prime</button>
+            <div class="result" id="primeResult"></div>
+        </div>
+    
+        <div class="container">
+            <h2>Sum of Digits</h2>
+            <div class="input-field">
+                <input type="number" id="digitsInput" placeholder="Enter a number">
+            </div>
+            <button class="btn btn-warning" onclick="sumOfDigits()">Sum Digits</button>
+            <div class="result" id="digitsResult"></div>
+        </div>
+    
+        <div class="container">
+            <h2>Count Vowels</h2>
+            <div class="input-field">
+                <input type="text" id="vowelsInput" placeholder="Enter a string">
+            </div>
+            <button class="btn btn-danger" onclick="countVowels()">Count Vowels</button>
+            <div class="result" id="vowelsResult"></div>
+        </div>
+    </div>
+    
+    <script src="remove_dups.js"></script>
+</body>
+</html>
